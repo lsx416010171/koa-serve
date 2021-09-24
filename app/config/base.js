@@ -1,7 +1,7 @@
 module.exports = {
   tempFilePath : 'temp',
   logConfig:{ 
-    outDir: process.cwd() + '/logFile',
+    outDir: '',
     flag: '', 
     level: '', 
   }
