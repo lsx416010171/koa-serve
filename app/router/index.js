@@ -2,8 +2,6 @@ const koaRouter = require('koa-router')
 
 const router = new koaRouter();
 
-router.prefix('/api')
-
 const routeList = require('./routes');
 
 routeList.forEach(item => {

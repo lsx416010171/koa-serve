@@ -5,7 +5,6 @@ class Login extends BaseControl{
     super()
   }
   loginIn = async (ctx) => {
-    console.log(this.Sucess)
     ctx.body = this.Sucess('登陆成功')
   }
 }

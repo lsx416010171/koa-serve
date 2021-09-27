@@ -1,8 +1,6 @@
 module.exports = {
-  tempFilePath : 'temp',
-  logConfig:{ 
-    outDir: '',
-    flag: '', 
-    level: '', 
-  }
+  FILLERFILE: [
+    'index.js',
+    'baseControl.js'
+  ]
 }
